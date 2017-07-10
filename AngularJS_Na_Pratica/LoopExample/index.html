@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html ng-app = "app">
+  <head>
+    <title>Loop Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="js/loopController.js"></script>
+  </head>
+  <body ng-controller="loopController">
+    <h1>This is a loop</h1>
+    <ul>
+      <li ng-repeat="fruit in fruits">{{fruit}}</li>
+    </ul>
+  </body>
+</html>
